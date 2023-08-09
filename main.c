@@ -24,6 +24,8 @@ int convert(char input[])
         printf("c = %i\n", c);
         num = num + c * multiply;
     }
+    return num;
+    /*
     printf("num: %i\n", num);
     if (len == 0)
     {
@@ -31,6 +33,7 @@ int convert(char input[])
     }
     input[len - 1] = '\0'; // Errase last character 
     convert(input);
+    */
 
     // PROBLEM: Input is getting errased at line 23 I think.
     // 2ème version, num is reset to 0
